@@ -29,7 +29,7 @@ export const addOpportunity = async (req, res) => {
   try {
     const { registrationLink } = req.body;
 
-    // ✅ LINK VALIDATION (IMPORTANT)
+    // LINK VALIDATION (IMPORTANT)
     if (
       !registrationLink ||
       (!registrationLink.startsWith("http://") &&

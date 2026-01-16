@@ -20,7 +20,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/events", eventRoutes);
 app.use("/api/opportunities", opportunityRoutes);
-// Test Route
+
 app.get("/", (req, res) => {
   res.send("College Events Portal Backend is running");
 });

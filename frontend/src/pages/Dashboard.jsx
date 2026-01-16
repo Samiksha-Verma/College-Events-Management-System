@@ -22,7 +22,7 @@ const Dashboard = () => {
        <button
         onClick={() => {
             logout();
-            navigate("/"); // 👈 always go to login page
+            navigate("/"); // always go to login page
         }}
         className="bg-black text-white px-4 py-2 rounded-lg"
         >

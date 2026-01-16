@@ -3,7 +3,7 @@ import Event from "../models/Event.js";
 import Opportunity from "../models/Opportunity.js";
 
 const cleanupExpiredData = () => {
-  // Runs every day at midnight
+  
   cron.schedule("0 0 * * *", async () => {
     try {
       const today = new Date();
